@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/git-nostr-hook.svg)](https://www.npmjs.com/package/git-nostr-hook)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/node-18%2B-green.svg)](https://nodejs.org/)
 
 Git hook that automatically publishes your repository state to Nostr ([NIP-34](https://github.com/nostr-protocol/nips/blob/master/34.md)) on every commit.
 
