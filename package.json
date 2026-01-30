@@ -1,0 +1,30 @@
+{
+  "name": "git-nostr-hook",
+  "version": "0.0.1",
+  "description": "Git hook that publishes repository state to Nostr (NIP-34)",
+  "type": "module",
+  "bin": {
+    "git-nostr-hook": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "keywords": [
+    "git",
+    "nostr",
+    "nip34",
+    "hook",
+    "post-commit"
+  ],
+  "author": "nostrapps",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nostrapps/git-nostr-hook.git"
+  },
+  "homepage": "https://github.com/nostrapps/git-nostr-hook",
+  "dependencies": {
+    "nostr-tools": "^2.7.0"
+  }
+}
