@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "Git hook that publishes repository state to Nostr (NIP-34)",
   "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
   "bin": {
     "git-nostr-hook": "./bin/cli.js"
   },
